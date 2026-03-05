@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# IDE/tools
+.claude/
+.vscode/
+.idea/
+
+# Export output
+picnrec_*/
+picnrec_export_*/
+*.gif
+*.mp4
+*.mkv
+
+# Debug/test scripts
+debug_*.py
+test_*.py
+probe_*.py
+find_*.py
+slot_*.bin
+slot_*.png
+
+# Extracted images
+extracted_images/
+*_frames/

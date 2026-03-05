@@ -1,0 +1,19 @@
+[project]
+name = "picnrec"
+version = "0.5"
+description = "Game Boy Camera PicNRec interface"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+    "pyserial",
+    "pillow",
+    "imageio-ffmpeg>=0.6.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+picnrec = "picnrec.cli:main"
+picnrec-gui = "picnrec.gui:main"
